@@ -70,23 +70,24 @@ class App extends Component {
 }
 
 {/* 2 passing State */}
+{/*
 class App extends Component {
 
 
   render(){
 
-    const subjects = ["water","trees","earth", "car", "cute developer"] {/* static components so can use props, 
-    to have dynamic components we use "State" */}
+    const subjects = ["water","trees","earth", "car", "cute developer"] 
+    // static components so can use props, to have dynamic components we use "State" 
     
     return(
       <div className="App">
 
        <label>subject</label><input />
 
-       {/* rendering an array of randomimage components */}
+       // rendering an array of randomimage components 
         { subjects.map(subject => <RandomImage subject={subject} />)} 
-        {/* why map instead for each. map creats component and can use it as array, below is example of extension
-         prop example subject="mountain" */}
+      // why map instead for each. map creats component and can use it as array, below is example of extension
+         prop example subject="mountain" 
         {
           [
             <RandomImage subject="mountain" />,
@@ -97,4 +98,6 @@ class App extends Component {
     );
   }
 }
+*/}
+
 export default App;
